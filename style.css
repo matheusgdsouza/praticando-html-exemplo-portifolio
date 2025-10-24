@@ -89,6 +89,10 @@ span {
 
 }
 
+.campo-botoes a:hover {
+    background-color: #272727;
+}
+
 .campo-botoes img {
     margin: 0px 15px;
 }
