@@ -4,6 +4,8 @@ body {
     background-color: black;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 100;
+    padding: 0;
+    margin: 0;
 }
 
 .cabecalho {
@@ -25,6 +27,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 130px;
 }
 
 .conteudo-escrito-principal {
@@ -46,7 +49,7 @@ span {
     color: #22D4FD;
 }
 
-p {
+.texto-principal {
     color: #f6f6f6;
     font-size: 20px;
     margin: 40px 0px;
@@ -72,4 +75,16 @@ a {
 
 .imagem-portifolio {
     height: 400px;
+}
+
+.rodape {
+    background-color: #22D4FD;
+    text-align: center;
+    padding: 20px;
+}
+
+.rodape-texto {
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
 }
