@@ -11,7 +11,7 @@ body {
 .cabecalho {
     display: flex;
     flex-direction: row;
-    margin: 3% 21%;
+    margin: 5% 21.5%;
     justify-content: space-between;
 }
 
