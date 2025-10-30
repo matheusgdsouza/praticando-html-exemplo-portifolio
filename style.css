@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+:root {
+    --cor-primaria- : black;
+    --cor-secundaria- : #f6f6f6;
+    --cor-terciaria- : #22D4FD;
+    --cor-hover- : #272727;
+}
+
 body {
-    background-color: black;
+    background-color: var(--cor-primaria-);
     font-family: "Josefin Sans", sans-serif;
     font-weight: 100;
     padding: 0;
@@ -16,10 +23,10 @@ body {
 }
 
 .cabecalho-navegacao-link {
-    background-color: black;
-    color: #22D4FD;
+    background-color: var(--cor-primaria-);
+    color: var(--cor-terciaria-);
     margin: 0px 25px;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
     font-weight: bold;
 }
@@ -41,18 +48,18 @@ body {
 }
 
 .titulo-principal {
-    color: #f6f6f6;
-    font-size: 35px;
+    color: var(--cor-secundaria-);
+    font-size: 2.19rem;
     font-weight: bold;
 }
 
 span {
-    color: #22D4FD;
+    color: var(--cor-terciaria-);
 }
 
 .texto-principal {
-    color: #f6f6f6;
-    font-size: 20px;
+    color: var(--cor-secundaria-);
+    font-size: 1.25rem;
     margin: 40px 0px;
 }
 
@@ -65,8 +72,8 @@ span {
 }
 
 .campo-botoes-titulo {
-    color: #f6f6f6;
-    font-size: 24px;
+    color: var(--cor-secundaria-);
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -77,20 +84,20 @@ span {
     padding: 15px 75px;
     margin: 15px 0px;
     width: 40%;
-    background-color: black;
+    background-color: var(--cor-primaria-);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.25rem;
     border-radius: 10px;
-    border: #22D4FD 1px solid;
+    border: var(--cor-terciaria-) 1px solid;
     text-align: center;
     text-decoration: none;
     align-items: center;
-    color: #f6f6f6;
+    color: var(--cor-secundaria-);
 
 }
 
 .campo-botoes a:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover-);
 }
 
 .campo-botoes img {
@@ -102,13 +109,13 @@ span {
 }
 
 .rodape {
-    background-color: #22D4FD;
+    background-color: var(--cor-terciaria-);
     text-align: center;
     padding: 20px;
 }
 
 .rodape-texto {
-    color: black;
-    font-size: 24px;
+    color: var(--cor-secundaria-);
+    font-size: 1.5rem;
     font-weight: 400;
 }
