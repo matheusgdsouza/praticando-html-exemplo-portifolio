@@ -11,8 +11,8 @@ body {
     background-color: var(--cor-primaria-);
     font-family: "Josefin Sans", sans-serif;
     font-weight: 100;
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
 }
 
 .cabecalho {
@@ -105,7 +105,8 @@ span {
 }
 
 .imagem-portifolio {
-    height: 400px;
+    width: 30%;
+    height: 30%;
 }
 
 .rodape {
